@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import Navigation from "./Navigation";
 
 export default function Header() {
     return (
@@ -6,7 +7,7 @@ export default function Header() {
             <div className="h-10 w-full px-19 flex items-center justify-between">
                 <Logo />
 
-                <h1>Navigation</h1>
+                <Navigation />
 
                 <h1>Actions</h1>
             </div>
